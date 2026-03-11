@@ -1,12 +1,13 @@
-import './App.css'
+import { AppShell } from "@/components/layout/app-shell"
+import { Sidebar } from "@/components/layout/sidebar"
+import { DashboardPage } from "@/pages/dashboard-page"
 
 function App() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
-            <h1 className="text-3xl font-bold">LifeOS</h1>
-        </div>
+        <AppShell sidebar={<Sidebar />}>
+            <DashboardPage />
+        </AppShell>
     )
 }
-
 
 export default App
