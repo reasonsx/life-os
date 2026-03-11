@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import {TodayTasks} from "@/components/dashboard/today-tasks.tsx";
 
 export function DashboardPage() {
     return (
@@ -29,6 +30,8 @@ export function DashboardPage() {
                     <p className="text-sm text-muted-foreground">Capture ideas fast.</p>
                 </CardContent>
             </Card>
+
+            <TodayTasks />
         </div>
     )
 }

@@ -23,7 +23,7 @@ export function Sidebar() {
                     return (
                         <button
                             key={item.label}
-                            className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm transition hover:bg-accent hover:text-accent-foreground"
+                            className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm transition hover:bg-accent hover:text-accent-foreground cursor-pointer"
                         >
                             <Icon className="h-4 w-4" />
                             <span>{item.label}</span>
