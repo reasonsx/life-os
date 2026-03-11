@@ -54,7 +54,7 @@ export function Sidebar() {
                         </Avatar>
 
                         <div className="min-w-0">
-                            <p className="truncate text-sm font-medium">Kamil Kregiel</p>
+                            <p className="truncate text-sm font-medium">XYZ</p>
                             <p className="truncate text-xs text-muted-foreground">Personal account</p>
                         </div>
                     </div>

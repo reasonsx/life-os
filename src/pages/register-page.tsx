@@ -44,7 +44,7 @@ export function RegisterPage() {
                             <form className="space-y-5">
                                 <div className="space-y-2">
                                     <Label htmlFor="name">Name</Label>
-                                    <Input id="name" placeholder="Kamil" />
+                                    <Input id="name" placeholder="Name" />
                                 </div>
 
                                 <div className="space-y-2">
