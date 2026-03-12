@@ -7,6 +7,7 @@ import { NotesPage } from "@/pages/notes-page"
 import { PlannerPage } from "@/pages/planner-page"
 import { LoginPage } from "@/pages/login-page"
 import { RegisterPage } from "@/pages/register-page"
+import { CalendarPage } from "@/pages/calendar-page"
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/week" element={<WeekPage />} />
                     <Route path="/notes" element={<NotesPage />} />
                     <Route path="/planner" element={<PlannerPage />} />
+                    <Route path="/calendar" element={<CalendarPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

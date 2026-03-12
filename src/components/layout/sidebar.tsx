@@ -7,6 +7,7 @@ const items = [
     { label: "Dashboard", icon: Home, to: "/" },
     { label: "Tasks", icon: CheckSquare, to: "/tasks" },
     { label: "Week", icon: CalendarDays, to: "/week" },
+    { label: "Calendar", icon: CalendarDays, to: "/calendar" },
     { label: "Notes", icon: FileText, to: "/notes" },
     { label: "Planner", icon: NotebookPen, to: "/planner" },
 ]
